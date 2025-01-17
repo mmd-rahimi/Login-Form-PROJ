@@ -6,7 +6,7 @@ import createCache from "@emotion/cache";
 import { CacheProvider } from "@emotion/react";
 import rtlPlugin from "stylis-plugin-rtl";
 import { prefixer } from "stylis";
-import theme from "./Theme";
+import theme from "./themeBuild";
 
 const cacheRtl = createCache({
   key: "muirtl",

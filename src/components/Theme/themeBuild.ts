@@ -1,9 +1,9 @@
 import { createTheme } from "@mui/material";
 
 const theme = createTheme({
-    direction: "ltr",
+    direction: "rtl",
     typography: {
-      fontFamily: "Vazir"
+      fontFamily: "vazirmatn"
     },
   });
 
