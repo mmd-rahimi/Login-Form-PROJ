@@ -22,6 +22,7 @@ function Register() {
     <Card
       sx={{
         width: "500px",
+        // bgcolor: "secondary.dark"
       }}
     >
       <CardContent>

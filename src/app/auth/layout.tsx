@@ -10,7 +10,7 @@ function Layout({
     display: "flex",
     height: "100svh",
     alignItems: "center",
-    justifyContent: "center"
+    justifyContent: "center",
   }}>{children}</Box>;
 }
 
