@@ -1,4 +1,4 @@
-import { colors, createTheme } from "@mui/material";
+import { createTheme } from "@mui/material";
 
 const theme = createTheme({
     direction: "rtl",
@@ -10,14 +10,12 @@ const theme = createTheme({
         default: '#F7FBFC'
       },
       primary: {
-        main: '#769FCD'
+        main: '#00ADB5',
+        light: 'white',
+        dark: 'black',
+        contrastText: 'white'
       },
-      secondary: {
-        main: '#B9D7EA',
-        light: '#F7FBFC',
-        dark: '#D6E6F2',
-        contrastText: '#47008F',
-      },
+
     }
   });
 
